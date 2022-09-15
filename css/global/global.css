@@ -1,0 +1,22 @@
+body {
+  margin: 0;
+  font-family: Arial, Arial, Helvetica, sans-serif;
+}
+img {
+  max-width: 100%;
+  display: block;
+}
+h1,
+ul,
+p {
+  margin: 0;
+}
+ul {
+  list-style: none;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+  display: inline-block;
+}
