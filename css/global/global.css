@@ -7,16 +7,24 @@ img {
   display: block;
 }
 h1,
+h2,
+h3,
+h4,
 ul,
-p {
+p,
+span,
+a {
   margin: 0;
 }
 ul {
   list-style: none;
   padding: 0;
 }
+span,
+a {
+  display: inline-block;
+}
 a {
   text-decoration: none;
   color: inherit;
-  display: inline-block;
 }

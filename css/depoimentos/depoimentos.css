@@ -1,0 +1,16 @@
+.depoimentos-bg {
+  background-color: var(--cor-fundo);
+}
+.depoimentos {
+  padding: 80px 12px;
+}
+.depoimentos h2 {
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 80px;
+}
+.depoimentos-lista {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}

@@ -3,34 +3,19 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  color: #ffffff;
 }
 .introducao {
   display: grid;
   gap: 12px;
   justify-items: center;
   padding: 250px 12px;
-  box-sizing: border-box;
-  max-width: 1200px;
-  margin-right: auto;
-  margin-left: auto;
 }
 .introducao h1 {
-  font-size: 46px;
-  line-height: 1.25;
-  font-weight: normal;
   text-align: center;
   max-width: 45ch;
-  font-family: "Poppins";
-}
-.introducao h1 span {
-  color: #ffbb00;
 }
 @media (max-width: 800px) {
   .introducao {
     padding: 200px 12px;
-  }
-  .introducao h1 {
-    font-size: 32px;
   }
 }

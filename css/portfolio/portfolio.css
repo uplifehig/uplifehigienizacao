@@ -1,0 +1,41 @@
+.portfolio {
+  display: grid;
+  justify-items: center;
+  padding: 40px 12px 100px 12px;
+  gap: 80px;
+}
+.portfolio h4 {
+  text-transform: uppercase;
+  text-align: center;
+}
+.portfolio-lista {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+.bonus {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  justify-items: center;
+}
+.bonus h2 {
+  max-width: 20ch;
+  margin-bottom: 20px;
+}
+.bonus p {
+  font-weight: bold;
+}
+
+@media (max-width: 800px) {
+  .portfolio-lista {
+    grid-template-columns: 1fr;
+  }
+  .bonus {
+    grid-template-columns: 1fr;
+  }
+  .bonus h2,
+  .bonus p {
+    text-align: center;
+  }
+}
