@@ -1,0 +1,18 @@
+.footer {
+  display: grid;
+  justify-content: center;
+}
+.funcionamento {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  border: 1px solid #000000;
+  display: inline-block;
+  background-color: transparent;
+}
+.funcionamento.aberto {
+  background-color: green;
+}
+.funcionamento.fechado {
+  background-color: red;
+}
