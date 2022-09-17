@@ -14,3 +14,64 @@
   gap: 10px;
   align-items: center;
 }
+.menu {
+  display: none;
+}
+@keyframes menu {
+  from {
+    transform: translate3d(0, 0, 0);
+    max-height: 0;
+  }
+  to {
+    transform: translate3d(30px, 0, 0);
+    max-height: 100px;
+  }
+}
+@media (max-width: 800px) {
+  .menu {
+    display: flex;
+    position: absolute;
+    right: 10px;
+    top: 3rem;
+    border: none;
+    background-color: #000000;
+    color: #ffffff;
+    align-items: center;
+    gap: 5px;
+    padding: 0.5rem;
+  }
+  .header-menu {
+    display: none;
+  }
+  nav.ativo .header-menu {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    align-items: center;
+    animation: menu 1s forwards;
+  }
+  #hamburguer {
+    border-top: 2px solid #ffffff;
+    display: grid;
+    gap: 3px;
+    transition: 0.6s;
+  }
+  #hamburguer::before {
+    width: 20px;
+    height: 2px;
+    background-color: #ffffff;
+    content: "";
+    display: block;
+    margin-top: 3px;
+  }
+  #hamburguer::after {
+    width: 20px;
+    height: 2px;
+    background-color: #ffffff;
+    content: "";
+    display: block;
+  }
+  nav.ativo #hamburguer {
+    transform: rotate(90deg);
+  }
+}

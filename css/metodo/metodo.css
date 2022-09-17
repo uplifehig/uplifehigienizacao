@@ -1,0 +1,46 @@
+.metodo-bg {
+  background-image: url("../../img/lift/metodo.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.metodo {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 80px 0;
+}
+.metodo-lista {
+  display: grid;
+  gap: 150px;
+}
+.metodo-lista li,
+.metodo-lista-dois li {
+  background-color: var(--cor-w);
+  border-radius: 8px;
+  padding: 20px;
+}
+.metodo-lista-dois {
+  align-self: center;
+}
+.metodo h3 {
+  color: #d87895;
+  font-weight: bold;
+  max-width: 30ch;
+  margin-bottom: 5px;
+}
+.metodo p {
+  font-weight: 200;
+  max-width: 45ch;
+}
+@media (max-width: 800px) {
+  .metodo {
+    grid-template-columns: 1fr;
+    padding: 80px 12px;
+  }
+  .metodo-lista {
+    gap: 3px;
+  }
+  .metodo-lista li:last-child {
+    margin-bottom: 3px;
+  }
+}

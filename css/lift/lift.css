@@ -1,0 +1,37 @@
+.lift-bg {
+  background-color: rgb(255, 243, 246);
+}
+.lift {
+  display: grid;
+  grid-template-columns: auto 500px;
+  justify-content: center;
+  gap: 20px;
+  padding: 100px 12px;
+}
+.lift .img {
+  justify-self: end;
+}
+.lift-conteudo h5 {
+  font-weight: 700;
+  margin-bottom: 20px;
+  max-width: 23ch;
+}
+.lift-conteudo p {
+  font-weight: 100;
+  max-width: 40ch;
+}
+.lift-conteudo > p {
+  margin-bottom: 20px;
+}
+@media (max-width: 800px) {
+  .lift {
+    grid-template-columns: 1fr;
+  }
+  .lift .img {
+    justify-self: center;
+  }
+  .lift h5,
+  .lift p {
+    text-align: center;
+  }
+}

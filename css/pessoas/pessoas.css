@@ -1,0 +1,17 @@
+#pessoas {
+  display: grid;
+  justify-content: center;
+  padding: 50px 0;
+}
+.pessoas {
+  background-color: rgb(255, 243, 246);
+  padding: 100px 0;
+}
+.pessoas h6 {
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+.pessoas p {
+  text-align: center;
+}

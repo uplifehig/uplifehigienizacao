@@ -17,3 +17,15 @@
 
 /* Bem-estar */
 @import "./bemestar/bemestar.css";
+
+/* Lift */
+@import "./lift/lift.css";
+
+/* Metodo */
+@import "./metodo/metodo.css";
+
+/* Pessoas */
+@import "./pessoas/pessoas.css";
+
+/* Contato */
+@import "./contato/contato.css";

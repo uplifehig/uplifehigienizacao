@@ -1,0 +1,44 @@
+.contato {
+  display: grid;
+  gap: 20px;
+  justify-content: center;
+  text-align: center;
+  padding: 80px 0;
+}
+.formulario {
+  display: grid;
+  gap: 5px;
+}
+.formulario button {
+  justify-self: center;
+  border: none;
+  background-color: #20df20;
+  color: var(--cor-w);
+  padding: 22px 35px;
+  text-transform: uppercase;
+  border-radius: 4px;
+}
+.formulario input,
+.formulario textarea {
+  border: none;
+  font-size: 1rem;
+  padding: 20px 0;
+}
+.formulario input:focus,
+.formulario textarea:focus {
+  outline: none;
+}
+.formulario input:first-child {
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+.formulario input {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+.contato span {
+  margin-bottom: 20px;
+}
+@media (max-width: 800px) {
+  .contato {
+    padding: 80px 12px;
+  }
+}
